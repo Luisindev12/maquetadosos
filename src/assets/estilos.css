@@ -1,0 +1,33 @@
+@font-face {
+    font-family: HelveticaSOS;
+    src: url(/src/assets/Helvetica-Neue-LT-Com-95-Black.ttf);
+}
+
+body{
+    font-family: HelveticaSOS;
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding:13px;
+    color: #C1272D;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: HelveticaSOS;
+}
+.btn-neon:hover{
+    background: #C1272D;
+    box-shadow: 0 0 10px #C1272D, 0 0 40px
+    #C1272D, 0 0 60px #C1272D;
+    transition-delay: 0.08s;
+    color: white;
+}
+
+.tractor{
+    scale: 80%;
+    position: relative;
+
+}
